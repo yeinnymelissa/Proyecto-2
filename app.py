@@ -28,7 +28,7 @@ def obtener_usuario():
 
 @app.route('/')
 def index():
-    return "holaaaaa"
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(threaded=True, debug=True, port=4000)
