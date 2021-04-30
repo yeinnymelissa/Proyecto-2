@@ -31,6 +31,6 @@ def index():
     return render_template("prueba.html")
 
 if __name__ == '__main__':
-    app.run(threaded=True, debug=True, port=4000)
+    app.run(threaded=True, debug=True, port=2500)
 
     
