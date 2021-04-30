@@ -4,7 +4,7 @@ from usuario import Usuario
 from CRUD_Usuario import CRUD_Usuario
 
 usuarios = CRUD_Usuario()
-app = Flask(__name__)
+app = Flask(__name__, template_folder='Frontend')
 CORS(app)
 
 @app.route('/usuario', methods=['PUT'])
